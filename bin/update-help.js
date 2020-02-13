@@ -5,7 +5,7 @@ const path = require('path');
 const marked = require('marked');
 const download = require('download');
 
-let readmeURI = 'https://raw.githubusercontent.com/wiki/richardfrost/AdvancedProfanityFilter/Home.md';
+let readmeURI = 'https://github.com/Mtulimbogo/localized-offensive-word-filter#readme';
 let optionPage = path.join('src/static', 'optionPage.html');
 let optionPageHTML = fs.readFileSync(optionPage).toString();
 let prefix = '<div id="helpContainer">';
