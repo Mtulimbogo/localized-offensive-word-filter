@@ -1,0 +1,1 @@
+# localized-offensive-word-filter
