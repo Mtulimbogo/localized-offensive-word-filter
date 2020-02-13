@@ -42,7 +42,7 @@ function buildFirefox(manifest, zip) {
   let firefoxManifest = {
     "applications": {
       "gecko": {
-        "id": "{853d1586-e2ab-4387-a7fd-1f7f894d2651}"
+        "id": "{863d1586-e2ab-4387-a7fd-1f7f894d2653}"//"id": "{853d1586-e2ab-4387-a7fd-1f7f894d2651}"
       }
     }
   };
