@@ -1,2 +1,2 @@
 # localized-offensive-word-filter
-first change 
+A browser extension that helps to filter swahili and English offensive words.

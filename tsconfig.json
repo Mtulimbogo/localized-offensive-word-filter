@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "allowJs": true,
+      "target": "esnext",
+      "noEmit": true,
+      "lib": ["es2017", "dom", "dom.iterable"],
+      "types": [
+        //(various types, e.g. jquery, core-js),
+        "chrome"]
+     },
+    "include": [
+      "./src/script/**/*.ts", "src/script/bookmarklet.ts"
+    ]
+  }

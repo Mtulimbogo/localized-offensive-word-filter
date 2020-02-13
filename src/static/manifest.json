@@ -1,0 +1,52 @@
+{
+  "name": "Localized Offensive Word Filter",
+  "short_name": "Offensive Word Filter",
+  "author": "IP 02 - eGA",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "description": "Localized Offensive word Filter helps to clean up bad language on the websites you and your family visit.",
+  "icons": {
+    "16": "img/icon16.PNG",
+    "48": "img/icon48.PNG",
+    "128": "img/icon128.PNG"
+  },
+  "permissions": [
+    "contextMenus",
+    "notifications",
+    "storage",
+    "tabs"
+  ],
+  "optional_permissions": [
+    "file://*/*"
+  ],
+  "options_ui": {
+    "chrome_style": false,
+    "open_in_tab": true,
+    "page": "optionPage.html"
+  },
+  "background": {
+    "scripts": [
+      "eventPage.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+     
+    },
+    "default_title": "Localized Offensive word Filter",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "webFilter.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}
