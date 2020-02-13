@@ -1,0 +1,27 @@
+{
+  "name": "localized-offensive-word-filter",
+  "version": "1.0.0",
+  "description": "browser extension to filter offensive english and swahili words while using a browser ",
+  "main": "filter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mtulimbogo/localized-offensive-word-filter.git"
+  },
+  "keywords": [
+    "offensive",
+    "filter",
+    "extension",
+    "swahili",
+    "language",
+    "english"
+  ],
+  "author": "IP-02-EGA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mtulimbogo/localized-offensive-word-filter/issues"
+  },
+  "homepage": "https://github.com/Mtulimbogo/localized-offensive-word-filter#readme"
+}
